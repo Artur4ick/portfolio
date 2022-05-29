@@ -1,1 +1,64 @@
-
+body {
+    font-family: sans-serif;
+}
+header h1{
+    background-image:linear-gradient(to right, orange, purple);
+    
+    padding:10px;
+    box-shadow: 3px 2px 10px darkblue;
+    border-radius:40px;
+}
+header a{
+    font-size:20px;
+    margin:30px;
+    border:3px double darkgoldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+    padding:4px;
+    color:black;
+}
+header{
+    background-color: cyan;
+    padding:6px;
+}
+.er{
+    display: flex;
+    justify-content: space-between
+}
+header a:hover{
+    transition:3 1 1;
+    background-image: linear-gradient(white,blue,red);
+    
+}
+main{
+    background-color: azure;
+}
+.f{
+    font-size:100px;
+    text-align: center;
+    background-image: linear-gradient(lightgreen,lightblue);
+    box-shadow: 4 4 10 4;
+    margin-top:0px;
+    margin-bottom: 0%;
+}
+.ty{
+    margin-top:0%;
+}
+.fg{
+    display: flex;
+    justify-content: space-around;
+}
+.fg img{
+    opacity:0.5;
+}
+.fg img:hover{
+    transition:1s linear;
+    opacity:1;
+}
+footer{
+    background-color: gray;
+    padding:5px;
+}
+.tu{
+    font-size:20px;
+}
