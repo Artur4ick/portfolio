@@ -33,6 +33,78 @@ header a:hover{
 main{
     background-color: azure;
 }
+.cir1 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 231, 104);
+}
+.cir2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(208, 255, 0);
+}
+.cir3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 0, 0);
+}
+.cir4 {
+    display: inline-block;
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+    border: 10px solid rgb(247, 0, 255);
+}
+.cir5 {
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    border: 10px solid blue;
+}
+.cir6 {
+    display: inline-block;
+    width: 123px;
+    height:123px;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 196, 0);
+}
+.yo:hover .cir1{
+    transition: 1s linear;
+    transform: scale(0.2);
+    opacity:0;
+}
+.yo:hover .cir2{
+    transition: 2s linear;
+    transform: scale(1.4);
+    opacity:0;
+}
+.yo:hover .cir3{
+    transition: 3s linear;
+    transform:translateX(50px);
+    opacity:0;
+}
+.yo:hover .cir4{
+    transition: 1.7s linear;
+    transform:translateX(-60px);
+    opacity:0;
+}
+.yo:hover .cir5{
+    transition: 0.5s ease-out;
+    transform:translateY(20px);
+    opacity:0;
+}
+.yo:hover .cir6{
+    transition: 0.7s ease-in;
+    transform:translateX(-50px);
+    opacity:0;
+}
 .f{
     font-size:100px;
     text-align: center;
